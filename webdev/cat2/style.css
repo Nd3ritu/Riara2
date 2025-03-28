@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
 
+
 }
 
 html,body{
@@ -99,7 +100,8 @@ nav ul li a:hover{
 
 #image img {
     width: 300%;
-    height: 70%; /* Adjust this value as needed */
+    height: 70%;
+    border-radius: 100px; /* Adjust this value as needed */
     
     
 }
@@ -112,8 +114,9 @@ nav ul li a:hover{
 }
 
 #laliga img{
-    width: 100%;
+    width: 80%;
     height: 80%;
+    border-radius: 1200px;
 }
 
 #ligue1 img{
@@ -122,7 +125,74 @@ nav ul li a:hover{
     border-radius: 1000px;
 
 }
+#landingbundesliga img{
+    width: 90%;
+    height: 90%;
+    margin-top: 100px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    border-radius: 10px 60px 30px;
+}
 
+#landingepl img{
+    width: 90%;
+    height: 90%;
+    margin-top: 100px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    border-radius: 10px 60px 30px;
+    background-color: #010a0a;
+}
+
+#landingligue1 img{
+    width: 90%;
+    height: 90%;
+    margin-top: 100px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    border-radius: 10px 60px 30px;
+}
+
+#landinglaliga img {
+    width: 90%;
+    height: 90%;
+    margin-top: 100px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    border-radius: 10px 60px 30px;
+}
+
+
+#landinglaliga img:hover {
+    transform: scale(1.1) rotate(5deg);
+    opacity: 0.8;
+}
+#landingligue1 img:hover {
+    transform: scale(1.1) rotate(5deg);
+    opacity: 0.8;
+}
+#landingbundesliga img:hover {
+    transform: scale(1.1) rotate(5deg);
+    opacity: 0.8;
+}
+#landingepl img:hover {
+    transform: scale(1.1) rotate(5deg);
+    opacity: 0.8;
+}
+
+
+#leagues{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    gap: 10%;
+    background-color: #000707;
+    
+}
+#caption{
+    text-align: center;
+    font-style: italic;
+    text-decoration-color: #cecb0e;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
 
 /* #table th, #table td {
     border: 1px solid #ddd;
