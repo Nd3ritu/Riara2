@@ -116,6 +116,13 @@ nav ul li a:hover{
     height: 80%;
 }
 
+#ligue1 img{
+    width: 80%;
+    height: 80%;
+    border-radius: 1000px;
+
+}
+
 
 /* #table th, #table td {
     border: 1px solid #ddd;
