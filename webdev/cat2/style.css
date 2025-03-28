@@ -103,6 +103,10 @@ nav ul li a:hover{
     
     
 }
+
+#epl img{
+    width: 150%;
+}
 #bundesligabody {
     background-color: #010a0a;
 }
