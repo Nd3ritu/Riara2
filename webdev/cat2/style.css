@@ -56,7 +56,7 @@ nav ul li a:hover{
 
 #table {
     border-collapse: collapse;
-    margin: 300px auto;
+    margin: 200px auto;
     font-size: larger;
     width: 80%;
     box-shadow: 0 5px 15px rgba(4, 235, 235, 0.1);
@@ -72,7 +72,7 @@ nav ul li a:hover{
 }
 
 #table td{
-    padding: 20px;
+    padding: 10px;
 }
 
 #Bundesliga {
@@ -80,8 +80,21 @@ nav ul li a:hover{
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     text-decoration: underline;
+
+}
+#container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#image img {
+    width: 90%;
+    height: 115%; /* Adjust this value as needed */
+    
     
 }
+
 
 /* #table th, #table td {
     border: 1px solid #ddd;
