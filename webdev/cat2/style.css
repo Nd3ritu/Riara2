@@ -54,3 +54,72 @@ nav ul li a:hover{
 }
 
 
+#table {
+    border-collapse: collapse;
+    margin: 300px auto;
+    font-size: larger;
+    width: 80%;
+    box-shadow: 0 5px 15px rgba(4, 235, 235, 0.1);
+}
+
+#table  th{
+    background-color: #010a0a;
+    text-align: left;
+    color: #cecb0e;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
+
+#table td{
+    padding: 20px;
+}
+
+#Bundesliga {
+    justify-content: center;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: underline;
+    
+}
+
+/* #table th, #table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center;
+}
+
+#table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+#table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#table tr:hover {
+    background-color: #f1f1f1;
+}
+#table th, #table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+}
+
+#table tr:nth-child(even) {
+    background-color: #1fe7dd;
+}
+
+#table tr:hover {
+    background-color: #dddddd;
+} */
+
+
