@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    
 
 
 }
@@ -57,10 +58,10 @@ nav ul li a:hover{
 
 #table {
     border-collapse: collapse;
-    margin: 200px auto;
+    margin-top: 80px;
     font-size: larger;
-    width: 100%;
-    box-shadow: 0 5px 15px rgba(4, 235, 235, 0.1);
+    width: 50%;
+    box-shadow: 0 5px 15px rgba(67, 170, 7, 0.1);
     background-color: #cecb0e;
     border-radius: 5%;
 
@@ -98,10 +99,22 @@ nav ul li a:hover{
 
 }
 
+#wins + #loses {
+    color: #ce0e0e;
+    text-decoration: line-through;
+}
+
+#Leverkusen > #leverkusen{
+    color: #c80ece;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+}
 #image img {
-    width: 300%;
+    width: 200%;
     height: 70%;
-    border-radius: 100px; /* Adjust this value as needed */
+    margin-left: 80%;
+    margin-top: 30%;
+    border-radius: 100px; 
     
     
 }
@@ -114,8 +127,10 @@ nav ul li a:hover{
 }
 
 #laliga img{
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 70%;
+    margin-left: 10%;
+    margin-top: 10%;
     border-radius: 1200px;
 }
 

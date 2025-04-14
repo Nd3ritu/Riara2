@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0f0101;
+        }
+        h2{
+            text-align: center;
+            color: yellow;
+            
+        }
+
+        form {
+            width: 30%;
+            margin: 0 auto;
+            margin-top: 10%;
+            
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        #password, #username {
+            
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #passwordtext, #usertext {
+            display: block;
+            margin-bottom: 10px;
+            color: #cecb0f;
+        }
+
+        #loginbtn {
+            display: block;
+            width: 50%;
+            background-color: #dbfa2f;
+            color: rgb(10, 1, 1);
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #loginbtn:hover {
+            background-color: #f3b610;
+        }
+
+    </style>
+</head>
+
+<body>
+    <form action="/" method="post">
+        <h2>Login</h2>
+        
+        <label for="username" id="usertext">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password" id="passwordtext">Password:</label>
+        <input type="password" id="password" required>
+        <br>
+        <input type="submit" value="Login" id="loginbtn">
+    </form>
+</body>
+
+</html>
